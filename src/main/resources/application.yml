@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: hexagonal
+
+
+
+
+
+
+
+vieira:
+  client:
+    address:
+      url: http://localhost:8585/addresses
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hexagonal
+
+
+server:
+  port: 8080
